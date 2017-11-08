@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sumofth", "sumofth\sumofth.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class", "Class\Class.csproj", "{79D2E3EB-034A-4646-8930-AF72CCA2B64E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "method", "method\method.csproj", "{17A058A0-0404-4CB9-A042-70AED5E6CE68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{79D2E3EB-034A-4646-8930-AF72CCA2B64E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79D2E3EB-034A-4646-8930-AF72CCA2B64E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79D2E3EB-034A-4646-8930-AF72CCA2B64E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17A058A0-0404-4CB9-A042-70AED5E6CE68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17A058A0-0404-4CB9-A042-70AED5E6CE68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17A058A0-0404-4CB9-A042-70AED5E6CE68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17A058A0-0404-4CB9-A042-70AED5E6CE68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +57,7 @@ Global
 		{91F1E4D4-BC95-4347-A140-5DEC601688B7} = {E10F07B2-FA46-4901-8874-BB21C1BF2BAD}
 		{E63BC1F4-C97A-4AFF-9F64-9E8E9257D885} = {E10F07B2-FA46-4901-8874-BB21C1BF2BAD}
 		{79D2E3EB-034A-4646-8930-AF72CCA2B64E} = {E10F07B2-FA46-4901-8874-BB21C1BF2BAD}
+		{17A058A0-0404-4CB9-A042-70AED5E6CE68} = {E10F07B2-FA46-4901-8874-BB21C1BF2BAD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EEB7B5C5-3BBF-432E-B2E9-B5DB1C74EB52}
