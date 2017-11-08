@@ -1,0 +1,7 @@
+E:\VisualStudio\C_Sharp_Study\Class\obj\Debug\Class.csprojResolveAssemblyReference.cache
+E:\VisualStudio\C_Sharp_Study\Class\obj\Debug\Class.csproj.CoreCompileInputs.cache
+E:\VisualStudio\C_Sharp_Study\Class\bin\Debug\Class.exe.config
+E:\VisualStudio\C_Sharp_Study\Class\bin\Debug\Class.exe
+E:\VisualStudio\C_Sharp_Study\Class\bin\Debug\Class.pdb
+E:\VisualStudio\C_Sharp_Study\Class\obj\Debug\Class.exe
+E:\VisualStudio\C_Sharp_Study\Class\obj\Debug\Class.pdb

@@ -1,0 +1,6 @@
+E:\VisualStudio\C_Sharp_Study\sumofth\bin\Debug\sumofth.exe.config
+E:\VisualStudio\C_Sharp_Study\sumofth\bin\Debug\sumofth.exe
+E:\VisualStudio\C_Sharp_Study\sumofth\bin\Debug\sumofth.pdb
+E:\VisualStudio\C_Sharp_Study\sumofth\obj\Debug\sumofth.csproj.CoreCompileInputs.cache
+E:\VisualStudio\C_Sharp_Study\sumofth\obj\Debug\sumofth.exe
+E:\VisualStudio\C_Sharp_Study\sumofth\obj\Debug\sumofth.pdb

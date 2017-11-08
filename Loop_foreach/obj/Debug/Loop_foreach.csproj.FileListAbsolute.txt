@@ -1,0 +1,6 @@
+E:\VisualStudio\C_Sharp_Study\Loop_foreach\bin\Debug\Loop_foreach.exe.config
+E:\VisualStudio\C_Sharp_Study\Loop_foreach\bin\Debug\Loop_foreach.exe
+E:\VisualStudio\C_Sharp_Study\Loop_foreach\bin\Debug\Loop_foreach.pdb
+E:\VisualStudio\C_Sharp_Study\Loop_foreach\obj\Debug\Loop_foreach.csproj.CoreCompileInputs.cache
+E:\VisualStudio\C_Sharp_Study\Loop_foreach\obj\Debug\Loop_foreach.exe
+E:\VisualStudio\C_Sharp_Study\Loop_foreach\obj\Debug\Loop_foreach.pdb
