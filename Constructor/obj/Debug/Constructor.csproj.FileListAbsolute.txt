@@ -1,0 +1,7 @@
+E:\VisualStudio\C_Sharp_Study\Constructor\obj\Debug\Constructor.csprojResolveAssemblyReference.cache
+E:\VisualStudio\C_Sharp_Study\Constructor\obj\Debug\Constructor.csproj.CoreCompileInputs.cache
+E:\VisualStudio\C_Sharp_Study\Constructor\bin\Debug\Constructor.exe.config
+E:\VisualStudio\C_Sharp_Study\Constructor\bin\Debug\Constructor.exe
+E:\VisualStudio\C_Sharp_Study\Constructor\bin\Debug\Constructor.pdb
+E:\VisualStudio\C_Sharp_Study\Constructor\obj\Debug\Constructor.exe
+E:\VisualStudio\C_Sharp_Study\Constructor\obj\Debug\Constructor.pdb
