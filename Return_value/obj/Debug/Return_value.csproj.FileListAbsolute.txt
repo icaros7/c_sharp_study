@@ -1,0 +1,6 @@
+E:\VisualStudio\C_Sharp_Study\Return_value\bin\Debug\Return_value.exe.config
+E:\VisualStudio\C_Sharp_Study\Return_value\bin\Debug\Return_value.exe
+E:\VisualStudio\C_Sharp_Study\Return_value\bin\Debug\Return_value.pdb
+E:\VisualStudio\C_Sharp_Study\Return_value\obj\Debug\Return_value.csproj.CoreCompileInputs.cache
+E:\VisualStudio\C_Sharp_Study\Return_value\obj\Debug\Return_value.exe
+E:\VisualStudio\C_Sharp_Study\Return_value\obj\Debug\Return_value.pdb

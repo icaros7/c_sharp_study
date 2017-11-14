@@ -1,0 +1,6 @@
+E:\VisualStudio\C_Sharp_Study\Static_constructor\bin\Debug\Static_constructor.exe.config
+E:\VisualStudio\C_Sharp_Study\Static_constructor\bin\Debug\Static_constructor.exe
+E:\VisualStudio\C_Sharp_Study\Static_constructor\bin\Debug\Static_constructor.pdb
+E:\VisualStudio\C_Sharp_Study\Static_constructor\obj\Debug\Static_constructor.csproj.CoreCompileInputs.cache
+E:\VisualStudio\C_Sharp_Study\Static_constructor\obj\Debug\Static_constructor.exe
+E:\VisualStudio\C_Sharp_Study\Static_constructor\obj\Debug\Static_constructor.pdb

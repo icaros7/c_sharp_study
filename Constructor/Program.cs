@@ -11,18 +11,24 @@ namespace Constructor
         static void Main(string[] args)
         {
             Console.WriteLine("생성자 호출 전");
-            Person person = new Person();
+            Person person = new Person("Homin Rhee");
             Console.WriteLine("생성자 호출 후");
+            person.output();
         }
     }
     class Person
     {
         string name;
 
-        public Person()
+        public Person(string inname)
         {
-            name = "Homin Rhee";
-            Console.WriteLine("생성자 호출 완료");
+            name = inname;   
         }
+
+        public void output()
+        {
+            Console.WriteLine("name : " + name);
+        }
+
     }
 }
