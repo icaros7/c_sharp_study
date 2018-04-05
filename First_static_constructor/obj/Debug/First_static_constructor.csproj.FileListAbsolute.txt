@@ -4,3 +4,9 @@ E:\VisualStudio\C_Sharp_Study\First_static_constructor\bin\Debug\First_static_co
 E:\VisualStudio\C_Sharp_Study\First_static_constructor\obj\Debug\First_static_constructor.csproj.CoreCompileInputs.cache
 E:\VisualStudio\C_Sharp_Study\First_static_constructor\obj\Debug\First_static_constructor.exe
 E:\VisualStudio\C_Sharp_Study\First_static_constructor\obj\Debug\First_static_constructor.pdb
+R:\c_sharp_study\First_static_constructor\bin\Debug\First_static_constructor.exe.config
+R:\c_sharp_study\First_static_constructor\bin\Debug\First_static_constructor.exe
+R:\c_sharp_study\First_static_constructor\bin\Debug\First_static_constructor.pdb
+R:\c_sharp_study\First_static_constructor\obj\Debug\First_static_constructor.csproj.CoreCompileInputs.cache
+R:\c_sharp_study\First_static_constructor\obj\Debug\First_static_constructor.exe
+R:\c_sharp_study\First_static_constructor\obj\Debug\First_static_constructor.pdb

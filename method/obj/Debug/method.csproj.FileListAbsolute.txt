@@ -5,3 +5,10 @@ E:\VisualStudio\C_Sharp_Study\method\obj\Debug\method.csprojResolveAssemblyRefer
 E:\VisualStudio\C_Sharp_Study\method\obj\Debug\method.csproj.CoreCompileInputs.cache
 E:\VisualStudio\C_Sharp_Study\method\obj\Debug\method.exe
 E:\VisualStudio\C_Sharp_Study\method\obj\Debug\method.pdb
+R:\c_sharp_study\method\bin\Debug\method.exe.config
+R:\c_sharp_study\method\bin\Debug\method.exe
+R:\c_sharp_study\method\bin\Debug\method.pdb
+R:\c_sharp_study\method\obj\Debug\method.csprojResolveAssemblyReference.cache
+R:\c_sharp_study\method\obj\Debug\method.csproj.CoreCompileInputs.cache
+R:\c_sharp_study\method\obj\Debug\method.exe
+R:\c_sharp_study\method\obj\Debug\method.pdb

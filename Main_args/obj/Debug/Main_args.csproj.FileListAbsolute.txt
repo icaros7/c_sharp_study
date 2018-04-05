@@ -5,3 +5,10 @@ E:\VisualStudio\C_Sharp_Study\Main_args\obj\Debug\Main_args.csprojResolveAssembl
 E:\VisualStudio\C_Sharp_Study\Main_args\obj\Debug\Main_args.csproj.CoreCompileInputs.cache
 E:\VisualStudio\C_Sharp_Study\Main_args\obj\Debug\Main_args.exe
 E:\VisualStudio\C_Sharp_Study\Main_args\obj\Debug\Main_args.pdb
+R:\c_sharp_study\Main_args\bin\Debug\Main_args.exe.config
+R:\c_sharp_study\Main_args\bin\Debug\Main_args.exe
+R:\c_sharp_study\Main_args\bin\Debug\Main_args.pdb
+R:\c_sharp_study\Main_args\obj\Debug\Main_args.csprojResolveAssemblyReference.cache
+R:\c_sharp_study\Main_args\obj\Debug\Main_args.csproj.CoreCompileInputs.cache
+R:\c_sharp_study\Main_args\obj\Debug\Main_args.exe
+R:\c_sharp_study\Main_args\obj\Debug\Main_args.pdb

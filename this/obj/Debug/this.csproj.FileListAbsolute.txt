@@ -1,0 +1,6 @@
+R:\c_sharp_study\this\bin\Debug\@this.exe.config
+R:\c_sharp_study\this\bin\Debug\@this.exe
+R:\c_sharp_study\this\bin\Debug\@this.pdb
+R:\c_sharp_study\this\obj\Debug\this.csproj.CoreCompileInputs.cache
+R:\c_sharp_study\this\obj\Debug\@this.exe
+R:\c_sharp_study\this\obj\Debug\@this.pdb

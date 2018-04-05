@@ -5,3 +5,10 @@ E:\VisualStudio\C_Sharp_Study\Array\obj\Debug\Array.csprojResolveAssemblyReferen
 E:\VisualStudio\C_Sharp_Study\Array\obj\Debug\Array.csproj.CoreCompileInputs.cache
 E:\VisualStudio\C_Sharp_Study\Array\obj\Debug\Array.exe
 E:\VisualStudio\C_Sharp_Study\Array\obj\Debug\Array.pdb
+R:\c_sharp_study\Array\bin\Debug\Array.exe.config
+R:\c_sharp_study\Array\bin\Debug\Array.exe
+R:\c_sharp_study\Array\bin\Debug\Array.pdb
+R:\c_sharp_study\Array\obj\Debug\Array.csprojResolveAssemblyReference.cache
+R:\c_sharp_study\Array\obj\Debug\Array.csproj.CoreCompileInputs.cache
+R:\c_sharp_study\Array\obj\Debug\Array.exe
+R:\c_sharp_study\Array\obj\Debug\Array.pdb
