@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor_online", "Const
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallRef", "CallRef\CallRef.csproj", "{C51D6082-1293-4B0D-9E6D-EA1FE2451993}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4장. 객체 지향 문법", "4장. 객체 지향 문법", "{A7CB451E-2E3D-434B-95FA-9D2F5F05C324}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodOverload", "MethodOverload\MethodOverload.csproj", "{C9DBF1FC-3EFA-408B-92F5-D4916EE57AFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +101,10 @@ Global
 		{C51D6082-1293-4B0D-9E6D-EA1FE2451993}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C51D6082-1293-4B0D-9E6D-EA1FE2451993}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C51D6082-1293-4B0D-9E6D-EA1FE2451993}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9DBF1FC-3EFA-408B-92F5-D4916EE57AFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9DBF1FC-3EFA-408B-92F5-D4916EE57AFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9DBF1FC-3EFA-408B-92F5-D4916EE57AFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9DBF1FC-3EFA-408B-92F5-D4916EE57AFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -116,6 +124,7 @@ Global
 		{05CC6804-C2EA-40BA-B321-FC5792E300B8} = {B526AD5D-D726-45FE-9A73-6F8AC72B1F80}
 		{5A407AB7-8C81-4A60-B6CC-54117D7CE1B6} = {B526AD5D-D726-45FE-9A73-6F8AC72B1F80}
 		{C51D6082-1293-4B0D-9E6D-EA1FE2451993} = {B526AD5D-D726-45FE-9A73-6F8AC72B1F80}
+		{C9DBF1FC-3EFA-408B-92F5-D4916EE57AFD} = {A7CB451E-2E3D-434B-95FA-9D2F5F05C324}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EEB7B5C5-3BBF-432E-B2E9-B5DB1C74EB52}
