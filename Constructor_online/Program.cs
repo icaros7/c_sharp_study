@@ -10,6 +10,7 @@ namespace Constructor_online
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
