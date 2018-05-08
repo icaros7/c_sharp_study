@@ -1,0 +1,5 @@
+/Users/ihomin/workspace/c_sharp_study/MinMax/bin/Debug/MinMax.exe
+/Users/ihomin/workspace/c_sharp_study/MinMax/bin/Debug/MinMax.pdb
+/Users/ihomin/workspace/c_sharp_study/MinMax/obj/Debug/MinMax.csproj.CoreCompileInputs.cache
+/Users/ihomin/workspace/c_sharp_study/MinMax/obj/Debug/MinMax.exe
+/Users/ihomin/workspace/c_sharp_study/MinMax/obj/Debug/MinMax.pdb
