@@ -1,7 +1,0 @@
-E:\VisualStudio\C_Sharp_Study\MethodOverload\bin\Debug\MethodOverload.exe.config
-E:\VisualStudio\C_Sharp_Study\MethodOverload\bin\Debug\MethodOverload.exe
-E:\VisualStudio\C_Sharp_Study\MethodOverload\bin\Debug\MethodOverload.pdb
-E:\VisualStudio\C_Sharp_Study\MethodOverload\obj\Debug\MethodOverload.csprojResolveAssemblyReference.cache
-E:\VisualStudio\C_Sharp_Study\MethodOverload\obj\Debug\MethodOverload.csproj.CoreCompileInputs.cache
-E:\VisualStudio\C_Sharp_Study\MethodOverload\obj\Debug\MethodOverload.exe
-E:\VisualStudio\C_Sharp_Study\MethodOverload\obj\Debug\MethodOverload.pdb

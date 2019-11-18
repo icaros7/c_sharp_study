@@ -1,5 +1,0 @@
-/Users/ihomin/workspace/c_sharp_study/MinMax/Structor/obj/Debug/Structor.csproj.CoreCompileInputs.cache
-/Users/ihomin/workspace/c_sharp_study/MinMax/Structor/bin/Debug/Structor.exe
-/Users/ihomin/workspace/c_sharp_study/MinMax/Structor/bin/Debug/Structor.pdb
-/Users/ihomin/workspace/c_sharp_study/MinMax/Structor/obj/Debug/Structor.exe
-/Users/ihomin/workspace/c_sharp_study/MinMax/Structor/obj/Debug/Structor.pdb
