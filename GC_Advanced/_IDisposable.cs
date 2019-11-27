@@ -31,10 +31,12 @@ namespace _IDisposable
 		{
 			if (File.Exists(fileName))
 			{
+				Console.WriteLine("New File Mode");
 				_fs = new FileStream(fileName, FileMode.Create);
 			}
 			else
 			{
+				Console.WriteLine("Open exist file");
 				_fs = new FileStream(fileName, FileMode.Open);
 			}
 			this.fileName = fileName;
