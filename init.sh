@@ -1,7 +1,8 @@
 #!/bin/bash
 
 if [ ! -x "dotnet" ];then
-	echo "Please intall x
+	echo "Please intall dotnet!! checkout MS-Tech Page"
+fi
 
 if [ $# -lt "2" ];then
 	echo "Use following format :"
