@@ -16,11 +16,12 @@ if [ $# == '0' ];then
 	exit
 fi
 
-if [ -f "$1.sln" ];then
+IFS='.' read -r -a ext <<< "$1"
+if [ -f "$1.sln" -o "$ext[1]" == "sln"];then
 	file="sln"
 elif [ -d "$1" ];then
 	file="dir"
-elif [ -f "$1.csproj" ];then
+elif [ -f "$1.csproj" -o "$ext[1]" == "csproj" ];then
 	file="proj"
 else
 	echo "ERROR: Can't find $1 dir/sln/csproj."
