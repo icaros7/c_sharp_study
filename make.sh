@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ $# == '0' ];then
+if [ "$#" == '0' ];then
 	echo "ERROR: No parameter."
 	echo ""
 	echo "Use $0 via format, what following :"
@@ -30,7 +30,7 @@ else
 	exit
 fi
 
-if [ $1 == "/all" ];then
+if [ "$1" == "/all" ];then
 	echo "Target : All"
 	echo ""
 	echo "Are you sure build all directory?"
@@ -96,8 +96,8 @@ case $file in
 		;;
 esac
 
-if [ "$3" == "0" ];then
-	if [ "$1" == "/all" ];then
+if [ "$3" == "0" -o "$3" == "true" ];then
+	if [ "$1" == "/all" -o "$file" == "sln" ];then
 		echo "Can't run all project or solution!"
 		exit
 	fi
@@ -105,9 +105,9 @@ if [ "$3" == "0" ];then
 	echo ""
 	echo "Run $1 Project"
 	echo "================================="
-	if [ -f "$1/bin/${folder}/netcoreapp3.0" ];then
+	if [ "$file" == "dir" ];then
 		./$1/bin/${folder}/netcoreapp3.0/*
-	elif [ -d "bin/${folder}/netcoreapp3.0" ];then
+	elif [ "$file" == "proj" ];then
 		./bin/${folder}/netcoreapp3.0/*
 	fi
 fi
