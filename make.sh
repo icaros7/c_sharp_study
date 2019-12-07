@@ -17,7 +17,7 @@ if [ $# == '0' ];then
 fi
 
 IFS='.' read -r -a ext <<< "$1"
-if [ -f "$1.sln" -o "$ext[1]" == "sln"];then
+if [ -f "$1.sln" -o "$ext[1]" == "sln" ];then
 	file="sln"
 elif [ -d "$1" ];then
 	file="dir"
