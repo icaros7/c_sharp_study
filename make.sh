@@ -1,8 +1,10 @@
 #!/bin/bash
 
 if [ $# == '0' ];then
+	echo "ERROR: No parameter."
+	echo ""
 	echo "Use $0 via format, what following :"
-	echo "./make.sh [folder/sin/proj file name] [build mode] [Run After build? default : 1(false)]"
+	echo "./make.sh [folder/sln/proj file name] [build mode] [Run After build? default : 1(false)]"
 	echo ""
 	echo "Support [build mode] :"
 	echo "pbdonly, release, debug, debug:full"
@@ -10,6 +12,19 @@ if [ $# == '0' ];then
 	echo "If you want to build all directory, using follow :"
 	echo "./make.sh /all [build mode]"
 	read -n1 -r -p "Press any key to continue..."
+	echo ""
+	exit
+fi
+
+if [ -f "$1.sln" ];then
+	file="sln"
+elif [ -d "$1" ];then
+	file="dir"
+elif [ -f "$1.csproj" ];then
+	file="proj"
+else
+	echo "ERROR: Can't find $1 dir/sln/csproj."
+	read -n1 -r -p "Press any key to continue"
 	echo ""
 	exit
 fi
@@ -24,6 +39,28 @@ else
 	echo "Target : $1"
 fi
 
+case $2 in
+	"pbdonly" | "debug:pbdonly")
+		mode="debug:pbdonly"
+		folder="Debug"
+		;;
+	"release" | "Release")
+		mode="release"
+		folder="Release"
+		;;
+	"debug" | "Debug")
+		mode="debug"
+		folder="Debug"
+		;;
+	"full" | "Full" | "debug:full")
+		mode="debug:full"
+		folder="Debug"
+		;;
+	*)
+		echo "WARNING: No parameter for build mode. Default valus is debug mode."
+esac
+
+:<<'END'
 if [ "$2" == "pbdonly" ];then
 	mode="debug:pbdonly"
 	folder="Debug"
@@ -37,25 +74,27 @@ elif [ "$2" == "full" -o "$2" == "Full" ];then
 	mode="debug:full"
 	folder="Debug"
 else
-	echo "	Can't identify build mode. Default value is debug mode"
+	echo "ERROR: Can't identify build mode. Default value is debug mode"
 	mode="debug"
 	folder="Debug"
 fi
-
-if [ ! -d "$1" ];then
-	if [ ! -f "$1" ];then
-		echo "Doesn't exist directory or file $1"
-		read -n1 -r -p "Press any key to continue"
-		echo ""
-		exit
-	fi
-fi
+END
 
 echo "Mode : ${mode}"
 echo ""
 echo "msbuild for $1"
 echo "====================================="
-msbuild $1 /p:SignAssembly=true /p:AssemblyOriginatorKeyFile=../hominrhee.snk
+
+case $file in
+	"sln") msbuild $1.sln /p:SignAssembly=true /p:AssemblyOriginatorKeyFile=../hominrhee.snk ;;
+	"dir") msbuild $1 /p:SignAssembly=true /p:AssemblyOriginatorKeyFile=../hominrhee.snk ;;
+	"proj") msbuild $1.csproj /p:SignAssembly=true /p:AssemblyOriginatorKeyFile=../hominrhee.snk ;;
+	*)
+		echo "ERROR: Internal Error"
+		exit
+		;;
+esac
+
 if [ "$3" == "0" ];then
 	if [ "$1" == "/all" ];then
 		echo "Can't run all project or solution!"
