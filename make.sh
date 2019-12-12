@@ -1,4 +1,5 @@
 #!/bin/bash
+ls -l
 
 if [ "$#" == '0' ];then
 	echo "ERROR: No parameter."
