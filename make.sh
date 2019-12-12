@@ -1,5 +1,4 @@
 #!/bin/bash
-ls -l
 
 if [ "$#" == '0' ];then
 	echo "ERROR: No parameter."
@@ -22,7 +21,7 @@ if [ -f "$1.sln" -o "$ext[1]" == "sln" ];then
 	file="sln"
 elif [ -d "$1" ];then
 	file="dir"
-elif [ -f "$1.csproj" -o "$ext[1]" == "csproj" ];then
+elif [ -f "$1.csproj" -o "${ext[1]}" == "csproj" ];then
 	file="proj"
 else
 	echo "ERROR: Can't find $1 dir/sln/csproj."
@@ -70,7 +69,7 @@ echo "====================================="
 case $file in
 	"sln") msbuild $1.sln /p:SignAssembly=true /p:AssemblyOriginatorKeyFile=../hominrhee.snk ;;
 	"dir") msbuild $1 /p:SignAssembly=true /p:AssemblyOriginatorKeyFile=../hominrhee.snk ;;
-	"proj") msbuild $1.csproj /p:SignAssembly=true /p:AssemblyOriginatorKeyFile=../hominrhee.snk ;;
+	"proj") msbuild ${ext[0]}.csproj /p:SignAssembly=true /p:AssemblyOriginatorKeyFile=../hominrhee.snk ;;
 	*)
 		echo "ERROR: Internal Error"
 		exit
