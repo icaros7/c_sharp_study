@@ -34,7 +34,7 @@ if [ "$1" == "/all" ];then
 	echo "Target : All"
 	echo ""
 	echo "Are you sure build all directory?"
-	echo "If you want stop this task, Please press Ctrl + C(^C)"
+	echo "If you want stop this task, Please press ^C (Ctrl+C)"
 	read -n1 -r -p "Press any key to continue..."
 else
 	echo "Target : $1"
@@ -60,26 +60,6 @@ case $2 in
 	*)
 		echo "WARNING: No parameter for build mode. Default valus is debug mode."
 esac
-
-:<<'END'
-if [ "$2" == "pbdonly" ];then
-	mode="debug:pbdonly"
-	folder="Debug"
-elif [ "$2" == "release" -o "$2" == "Release" ];then
-	mode="release"
-	folder="Release"
-elif [ "$2" == "debug" -o "$2" == "Debug" ];then
-	mode="debug"
-	folder="Debug"
-elif [ "$2" == "full" -o "$2" == "Full" ];then
-	mode="debug:full"
-	folder="Debug"
-else
-	echo "ERROR: Can't identify build mode. Default value is debug mode"
-	mode="debug"
-	folder="Debug"
-fi
-END
 
 echo "Mode : ${mode}"
 echo ""
