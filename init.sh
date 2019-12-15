@@ -32,6 +32,6 @@ mkdir $1
 cd $1
 dotnet new $2
 
-if [ $3 == "0" ];then
+if [ "${3}" == "0" ];then
 	nano Program.cs
 fi
