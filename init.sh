@@ -2,11 +2,12 @@
 
 if [ ! -x "dotnet" ];then
 	echo "Please intall dotnet!! checkout MS-Tech Page"
+	exit
 fi
 
 if [ $# -lt "2" ];then
 	echo "Use following format :"
-	echo "./init.sh [folder/project name] [Template] [Open Program.cs with nano. Default 1]"
+	echo "./init.sh [folder/project name] [Template] [Empty Program.cs. Default 1 (false)]"
 	echo ""
 	echo "Ex -> ./init.sh Hello_world console 0"
 	read -n1 -r -p "Press any key to continue..."
@@ -33,5 +34,6 @@ cd $1
 dotnet new $2
 
 if [ "${3}" == "0" ];then
-	nano Program.cs
+	rm Program.cs
+	touch Program.cs
 fi
