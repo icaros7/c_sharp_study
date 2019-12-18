@@ -1,10 +1,5 @@
 #!/bin/bash
 
-if [ ! -x "dotnet" ];then
-	echo "Please intall dotnet!! checkout MS-Tech Page"
-	exit
-fi
-
 if [ $# -lt "2" ];then
 	echo "Use following format :"
 	echo "./init.sh [folder/project name] [Template] [Empty Program.cs. Default 1 (false)]"
