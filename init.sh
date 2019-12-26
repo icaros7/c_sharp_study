@@ -23,6 +23,7 @@ echo ""
 echo "Are you sure make $1 project with project directory?"
 echo "If you want stop this work, press Ctrl+C(^C)"
 read -n1 -r -p "Press any key to continue..."
+echo ""
 echo "====================================="
 mkdir $1
 cd $1
