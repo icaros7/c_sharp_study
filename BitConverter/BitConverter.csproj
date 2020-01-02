@@ -3,11 +3,12 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.0</TargetFramework>
-    <StartupObject>_memory.Program</StartupObject>
+    <StartupObject>_formatter.Program</StartupObject>
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
   </PropertyGroup>
 	<ItemGroup>
 		<Compile Include = "bitconverter.cs" />
 		<Compile Include = "memory.cs" />
+		<Compile Include = "formatter.cs" />
 	</ItemGroup>
 </Project>
