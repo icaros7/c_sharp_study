@@ -7,7 +7,7 @@ namespace Inheritance
         protected bool powerStatus = false;
         public string name;
 
-        public void boot()
+        virtual public void boot()
         {
             Console.WriteLine(this.name + $" booting!");
             this.powerStatus = true;
@@ -32,7 +32,7 @@ namespace Inheritance
 
         public Computer(string _name)
         {
-            name = _name;
+            this.name = _name;
             Console.WriteLine($"\nNew devices : " + this.name);
         }
 
@@ -46,7 +46,7 @@ namespace Inheritance
         public Laptop(string _name, bool _scan)
             : base(_name)
         {
-            fingerScan = _scan;
+            this.fingerScan = _scan;
         }
     }
 
@@ -58,15 +58,23 @@ namespace Inheritance
         public Desktop(string _name, int _ac)
             : base(_name)
         {
-            ac = _ac;
+            this.ac = _ac;
         }
     }
 
     public class AllInOne : Computer
     {
-        public AllInOne(string _name)
+        private bool touchScreen;
+        public AllInOne(string _name, bool _touchScreen)
             : base(_name)
         {
+            this.touchScreen = _touchScreen;
+        }
+
+        public override void boot()
+        {
+            base.boot();
+            Console.WriteLine("Touch Screen powerOn!");
         }
     }
 
@@ -74,7 +82,7 @@ namespace Inheritance
     {
         static void Main(string[] args)
         {
-            var surface = new AllInOne("Surface");
+            var surface = new AllInOne("Surface", true);
             surface.boot();
             Console.WriteLine(surface.thisPowerOn());
             surface.shutdown();
