@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_4.4.2.3_Class_Type_Convers
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_4.5.1.3_Delegate", "_4.5.1.3_Delegate\_4.5.1.3_Delegate.csproj", "{7E49752F-2AB6-4EA7-A5B8-FF3AD2A5B6FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_4.5.1.3_Multicast_Delegate", "_4.5.1.3_Multicast_Delegate\_4.5.1.3_Multicast_Delegate.csproj", "{4E4BF171-2A33-42A1-B0A3-904F38BB7A60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,5 +80,9 @@ Global
 		{7E49752F-2AB6-4EA7-A5B8-FF3AD2A5B6FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E49752F-2AB6-4EA7-A5B8-FF3AD2A5B6FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E49752F-2AB6-4EA7-A5B8-FF3AD2A5B6FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E4BF171-2A33-42A1-B0A3-904F38BB7A60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E4BF171-2A33-42A1-B0A3-904F38BB7A60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E4BF171-2A33-42A1-B0A3-904F38BB7A60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E4BF171-2A33-42A1-B0A3-904F38BB7A60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
