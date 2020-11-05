@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_4.4.2.2_Operator_Overload"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_4.4.2.3_Class_Type_Conversion", "_4.4.2.3_Class_Type_Conversion\_4.4.2.3_Class_Type_Conversion.csproj", "{B1BAE70A-7E5B-4768-A16B-6499C559A502}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_4.5.1.3_Delegate", "_4.5.1.3_Delegate\_4.5.1.3_Delegate.csproj", "{7E49752F-2AB6-4EA7-A5B8-FF3AD2A5B6FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,9 @@ Global
 		{B1BAE70A-7E5B-4768-A16B-6499C559A502}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1BAE70A-7E5B-4768-A16B-6499C559A502}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1BAE70A-7E5B-4768-A16B-6499C559A502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E49752F-2AB6-4EA7-A5B8-FF3AD2A5B6FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E49752F-2AB6-4EA7-A5B8-FF3AD2A5B6FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E49752F-2AB6-4EA7-A5B8-FF3AD2A5B6FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E49752F-2AB6-4EA7-A5B8-FF3AD2A5B6FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
