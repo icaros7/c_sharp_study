@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_4.4_Polymorphism", "_4.4_P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_4.4.2.2_Operator_Overload", "_4.4.2.2_Operator_Overload\_4.4.2.2_Operator_Overload.csproj", "{00E1D3EB-70F1-4249-9A96-E8A2E6F060B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_4.4.2.3_Class_Type_Conversion", "_4.4.2.3_Class_Type_Conversion\_4.4.2.3_Class_Type_Conversion.csproj", "{B1BAE70A-7E5B-4768-A16B-6499C559A502}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,5 +68,9 @@ Global
 		{00E1D3EB-70F1-4249-9A96-E8A2E6F060B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00E1D3EB-70F1-4249-9A96-E8A2E6F060B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00E1D3EB-70F1-4249-9A96-E8A2E6F060B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1BAE70A-7E5B-4768-A16B-6499C559A502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1BAE70A-7E5B-4768-A16B-6499C559A502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1BAE70A-7E5B-4768-A16B-6499C559A502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1BAE70A-7E5B-4768-A16B-6499C559A502}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
