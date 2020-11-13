@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_4.5.1.3_Multicast_Delegate
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_4.5.1.3_Callback_Method", "_4.5.1.3_Callback_Method\_4.5.1.3_Callback_Method.csproj", "{67306602-7927-4C4B-B2AB-6381A72C9EF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_4.5.1.4_Interface", "_4.5.1.4_Interface\_4.5.1.4_Interface.csproj", "{28455CA3-4D5B-49B8-95EB-2EB43D583F37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -90,5 +92,9 @@ Global
 		{67306602-7927-4C4B-B2AB-6381A72C9EF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67306602-7927-4C4B-B2AB-6381A72C9EF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67306602-7927-4C4B-B2AB-6381A72C9EF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28455CA3-4D5B-49B8-95EB-2EB43D583F37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28455CA3-4D5B-49B8-95EB-2EB43D583F37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28455CA3-4D5B-49B8-95EB-2EB43D583F37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28455CA3-4D5B-49B8-95EB-2EB43D583F37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
